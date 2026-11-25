@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Adarsh Kumar Singh — Guest Support, Customer Experience and Operations portfolio.">
+<title>AdarshSingh | Guest Support & Operations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f8f4;--surface:#fff;--surface2:#edf3ec;--ink:#20362d;--muted:#65776d;--green:#547f6b;--green-dark:#315e4b;--lime:#dcebdc;--line:#dce5dc;--accent:#c9b58d}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1240px,calc(100% - 64px));margin:auto}
+header{position:sticky;top:0;z-index:30;background:rgba(250,250,246,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font:800 16px Manrope,sans-serif;white-space:nowrap}.brand-mark{width:35px;height:35px;border-radius:11px;background:linear-gradient(135deg,#547f6b,#b7d89f);display:grid;place-items:center;color:white;font-size:13px}.brand-name{letter-spacing:-.03em}.brand-name span{color:var(--green)}
+nav{display:flex;gap:30px;font-size:13px;color:#66766d}nav a:hover{color:var(--green-dark)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 20px;border-radius:30px;background:var(--green);color:white;font-weight:700;font-size:13px;transition:.2s;border:1px solid var(--green)}.btn:hover{background:var(--green-dark);transform:translateY(-2px)}.btn.secondary{background:transparent;color:var(--green-dark);border-color:#a9bcae}.btn.secondary:hover{background:var(--surface2)}
+.hero{position:relative;overflow:hidden;padding:86px 0 80px;background:radial-gradient(ellipse at 82% 25%,rgba(84,127,107,.14),transparent 34%),linear-gradient(115deg,#f8f9f5,#edf3ec)}
+.hero:before{content:"";position:absolute;width:680px;height:680px;border:1px solid rgba(84,127,107,.12);border-radius:50%;right:-260px;top:-330px;box-shadow:0 0 0 70px rgba(84,127,107,.035),0 0 0 140px rgba(84,127,107,.025)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(350px,.8fr);gap:58px;align-items:center;position:relative;z-index:1}
+.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:var(--green);display:flex;align-items:center;gap:9px}.eyebrow:before{content:"";width:22px;height:1px;background:var(--green)}
+h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.12;letter-spacing:-.045em}h1{font-size:clamp(45px,6.2vw,83px);font-weight:800;margin:19px 0 23px;max-width:800px;color:#1d352b}h1 span{color:var(--green)}.lead{font-size:17px;line-height:1.85;color:#607268;max-width:780px}.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+.hero-tags{margin-top:34px;display:flex;gap:10px 18px;flex-wrap:wrap;color:#718077;font-size:12px}.hero-tags span:before{content:"•";color:var(--green);margin-right:8px}
+.profile-card{background:rgba(255,255,255,.78);border:1px solid #d5e1d6;border-radius:22px;padding:28px;box-shadow:0 22px 60px rgba(44,70,53,.08);backdrop-filter:blur(8px)}
+.profile-head{display:flex;align-items:center;gap:15px}.avatar{width:58px;height:58px;display:grid;place-items:center;border-radius:17px;background:linear-gradient(135deg,#547f6b,#b7d89f);font:800 20px Manrope;color:white}.profile-head h3{font-size:18px;margin:0 0 4px;letter-spacing:-.02em}.profile-head p{margin:0;color:var(--muted);font-size:12px}
+.card-rule{height:1px;background:var(--line);margin:24px 0}.profile-card h4{font:800 11px Manrope;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin:0 0 14px}
+.chips{display:flex;gap:9px;flex-wrap:wrap}.chip{font-size:11px;color:#466653;border:1px solid #d8e4d8;background:#f2f6f0;border-radius:30px;padding:8px 11px}.profile-foot{display:flex;justify-content:space-between;gap:10px;margin-top:25px;font-size:11px;color:#718077}
+section{padding:86px 0}.section-head{max-width:760px;margin-bottom:38px}.section-head .eyebrow{margin-bottom:13px}.section-head h2{font-size:clamp(33px,4.2vw,52px);margin:0 0 15px}.section-head p{color:var(--muted);margin:0;max-width:680px}
+.about-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:54px;align-items:start}.about-feature{background:linear-gradient(145deg,#e9f1e8,#f5f7f1);border:1px solid var(--line);border-radius:18px;padding:31px}.about-feature h3{font-size:29px;margin:15px 0}.about-feature p{color:var(--muted);font-size:14px}.about-copy p{color:var(--muted);margin-top:0}
+.experience{background:#eef3ed}.experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.job{background:#fff;border:1px solid var(--line);border-radius:16px;padding:27px;box-shadow:0 8px 28px rgba(41,67,49,.035)}.job-date{font-size:10px;color:var(--green);font-weight:800;letter-spacing:.14em;text-transform:uppercase}.job h3{font-size:23px;margin:12px 0 4px}.company{color:var(--green-dark);font-size:13px;font-weight:600;margin-bottom:17px}.job ul{margin:0;padding-left:18px;color:var(--muted);font-size:13px}.job li{margin:9px 0}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.skill{background:white;border:1px solid var(--line);border-radius:15px;padding:23px;transition:.2s}.skill:hover{transform:translateY(-3px);border-color:#a8c0ad;box-shadow:0 12px 28px rgba(41,67,49,.06)}.skill-index{font:800 11px Manrope;color:var(--green);letter-spacing:.1em}.skill h3{font-size:19px;margin:12px 0 9px}.skill p{font-size:13px;color:var(--muted);margin:0}
+.projects{background:#f0f4ee}.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.project{background:white;border:1px solid var(--line);border-radius:16px;padding:27px}.project-type{font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--green);font-weight:800}.project h3{font-size:23px;margin:12px 0}.project p{font-size:13px;color:var(--muted);margin:0}
+.education-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.edu{padding:17px 0;border-bottom:1px solid var(--line)}.edu h3{font-size:17px;margin:0 0 5px}.edu p{font-size:12px;color:var(--muted);margin:0}
+.contact{background:linear-gradient(120deg,#e7efe6,#f5f7f1);border-top:1px solid var(--line)}.contact-inner{max-width:900px}.contact h2{font-size:clamp(38px,5vw,62px);margin:16px 0}.contact p{color:var(--muted);font-size:16px;max-width:720px}.contact-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.contact-links a{border:1px solid #aebfae;border-radius:30px;padding:11px 17px;font-size:12px;color:var(--green-dark);background:rgba(255,255,255,.55)}.contact-links a:hover{background:var(--green);border-color:var(--green);color:white}
+footer{background:#e7eee6;border-top:1px solid #d6e0d6;padding:19px 0;color:#718077;font-size:11px}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:34px}.profile-card{max-width:600px}.about-grid{grid-template-columns:1fr;gap:28px}.skills-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.wrap{width:calc(100% - 36px)}.nav{padding:14px 0;min-height:68px;flex-wrap:wrap;gap:12px}.brand{font-size:14px}nav{order:3;width:100%;justify-content:space-between;gap:10px;font-size:11px}.nav-cta{display:none}.hero{padding:62px 0 55px}.hero-grid{gap:28px}h1{font-size:clamp(42px,12vw,58px)}.lead{font-size:15px}.hero-tags{gap:7px 13px}.profile-card{padding:21px}.profile-foot{font-size:10px}section{padding:62px 0}.experience-grid,.project-grid,.education-grid,.skills-grid{grid-template-columns:1fr}.section-head h2{font-size:34px}.contact h2{font-size:39px}}
+@media(max-width:380px){.wrap{width:calc(100% - 28px)}nav{font-size:10px}.hero-actions .btn{width:100%}.profile-head h3{font-size:16px}.profile-foot{flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="brand-mark">AS</span><span class="brand-name">Adarsh<span>Singh</span></span></a>
+<nav aria-label="Main navigation"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+<a class="btn nav-cta" href="#contact">Let's Connect ↗</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div>
+<div class="eyebrow">Guest Support · Customer Experience · Operations</div>
+<h1>Turning guest inquiries into <span>helpful experiences.</span></h1>
+<p class="lead">I'm Adarsh Kumar Singh, a Computer Science graduate with experience in professional communication, inquiry handling, documentation and cross-functional coordination. I bring a responsive, organized and detail-oriented approach to supporting people and keeping day-to-day operations running smoothly.</p>
+<div class="hero-actions"><a class="btn" href="#experience">Explore my experience ↘</a><a class="btn secondary" href="#contact">Get in touch ↗</a></div>
+<div class="hero-tags"><span>Guest communication</span><span>Query resolution</span><span>Service coordination</span><span>Organized operations</span></div>
+</div>
+<aside class="profile-card">
+<div class="profile-head"><div class="avatar">AS</div><div><h3>Adarsh Kumar Singh</h3><p>Guest Support & Operations</p></div></div>
+<div class="card-rule"></div>
+<h4>What I bring</h4>
+<div class="chips"><span class="chip">Guest & Customer Communication</span><span class="chip">Inquiry Handling</span><span class="chip">Issue Resolution</span><span class="chip">Record Management</span><span class="chip">Team Coordination</span><span class="chip">Attention to Detail</span></div>
+<div class="profile-foot"><span>Computer Science · 2025</span><span>Gurgaon, India</span></div>
+</aside>
+</div></section>
+
+<section id="about"><div class="wrap about-grid">
+<div class="about-feature"><div class="eyebrow">My approach</div><h3>Every guest deserves clear, timely and thoughtful support.</h3><p>I focus on listening carefully, sharing accurate information, following through on requests and coordinating with the right people to help resolve issues.</p></div>
+<div class="about-copy"><div class="section-head"><div class="eyebrow">About me</div><h2>People-focused communication backed by organized execution.</h2></div>
+<p>My professional experience includes communicating with candidates and internal stakeholders, managing multiple interactions, maintaining accurate records and coordinating updates across teams.</p>
+<p>I'm interested in applying these transferable strengths to remote guest support and hospitality operations—responding to inquiries professionally, helping guests access the information they need and supporting a smooth stay experience.</p></div>
+</div></section>
+
+<section class="experience" id="experience"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Professional experience</div><h2>Experience built around communication and coordination.</h2><p>Relevant experience from recruitment coordination and business analysis support.</p></div>
+<div class="experience-grid">
+<article class="job"><div class="job-date">Aug 2026 – Oct 2026</div><h3>Trainee US IT Recruiter</h3><div class="company">Zodiac Solutions · Gurgaon</div><ul>
+<li>Communicated professionally with candidates through calls, emails and messages to address inquiries and provide updates.</li>
+<li>Managed multiple candidate interactions while ensuring timely responses and follow-ups.</li>
+<li>Maintained accurate records and updated candidate information in the applicant tracking system (ATS).</li>
+<li>Coordinated with internal teams to address queries and ensure smooth communication.</li>
+</ul></article>
+<article class="job"><div class="job-date">Oct 2025 – Jan 2026</div><h3>Business Analyst Trainee</h3><div class="company">Infera · Noida</div><ul>
+<li>Communicated with internal teams and stakeholders to understand requirements and address queries.</li>
+<li>Organized, updated and maintained accurate project information and documentation.</li>
+<li>Coordinated with cross-functional teams to track tasks, share updates and support smooth operations.</li>
+<li>Identified information gaps and supported issue resolution through analysis and follow-ups.</li>
+</ul></article>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Core capabilities</div><h2>Skills that support a better guest experience.</h2><p>Transferable strengths aligned with Explorent's eConcierge and remote guest support responsibilities.</p></div>
+<div class="skills-grid">
+<article class="skill"><div class="skill-index">01 / COMMUNICATION</div><h3>Guest & Customer Communication</h3><p>Professional written and verbal communication, inquiry handling, clear updates and timely follow-ups.</p></article>
+<article class="skill"><div class="skill-index">02 / SUPPORT</div><h3>Query & Issue Resolution</h3><p>Understanding requests, identifying information gaps, organizing details and supporting issue resolution.</p></article>
+<article class="skill"><div class="skill-index">03 / COORDINATION</div><h3>Service Coordination</h3><p>Working with internal teams, tracking tasks, sharing updates and managing multiple interactions.</p></article>
+<article class="skill"><div class="skill-index">04 / ACCURACY</div><h3>Records & Documentation</h3><p>Maintaining accurate information, structured records and clear communication documentation.</p></article>
+<article class="skill"><div class="skill-index">05 / DIGITAL TOOLS</div><h3>Digital Tools</h3><p>MS Excel, MS Office, email communication and applicant tracking systems (ATS).</p></article>
+<article class="skill"><div class="skill-index">06 / WORK STYLE</div><h3>Professional Approach</h3><p>Problem-solving, attention to detail, adaptability, multitasking and time management.</p></article>
+</div></div></section>
+
+<section class="projects" id="projects"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Selected projects</div><h2>Technical foundation. Collaborative mindset.</h2><p>Project experience that strengthened my documentation, testing and coordination skills.</p></div>
+<div class="project-grid">
+<article class="project"><div class="project-type">Web-based system</div><h3>BloodLink</h3><p>Collaborated with a development team on a web-based blood donation system, supporting user requirements, documentation, testing and issue tracking.</p></article>
+<article class="project"><div class="project-type">Recognition system</div><h3>Face Attendance System with Anti-Spoofing</h3><p>Supported requirement analysis, testing, documentation and issue tracking for a face recognition attendance system.</p></article>
+</div></div></section>
+
+<section id="education"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Education & certifications</div><h2>My learning foundation.</h2></div>
+<div class="education-grid"><div>
+<article class="edu"><h3>B.Tech, Computer Science and Engineering</h3><p>United College of Engineering and Research, Prayagraj · Oct 2021 – Jul 2025</p></article>
+<article class="edu"><h3>Intermediate (PCM) · 83%</h3><p>Shakun Vidya Niketan, Prayagraj · Apr 2020 – Jun 2021</p></article>
+<article class="edu"><h3>High School · 87%</h3><p>Shakun Vidya Niketan, Prayagraj · Apr 2018 – Jun 2019</p></article>
+</div><div>
+<article class="edu"><h3>Web Development Internship</h3><p>Prodigy InfoTech</p></article>
+<article class="edu"><h3>Android Application Development (Core Java)</h3><p>NETCAMP</p></article>
+<article class="edu"><h3>Network Management & Web Development</h3><p>NETCAMP</p></article>
+</div></div></div></section>
+
+<section class="contact" id="contact"><div class="wrap contact-inner">
+<div class="eyebrow">Let's connect</div><h2>Have a guest support opportunity to discuss?</h2>
+<p>I'm interested in opportunities across remote guest support, customer communication and hospitality operations. I'd be glad to connect.</p>
+<div class="contact-links"><a href="mailto:adarshkumarsingh8480@gmail.com">✉ Email me</a><a href="tel:+919794048480">☎ Call me</a><a href="https://www.linkedin.com/in/adarsh-kumar-singh-92b392224" target="_blank" rel="noopener">↗ LinkedIn</a></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Adarsh Kumar Singh. All rights reserved.</span><span>Guest Support · Customer Experience · Operations</span></div></footer>
+</body></html>
